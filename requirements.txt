@@ -4,4 +4,4 @@ openpyxl
 numpy
 plotly
 geopandas
-sklearn
+scikit-learn
