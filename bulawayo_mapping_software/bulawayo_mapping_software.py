@@ -29,7 +29,7 @@ with st.sidebar:
         menu_title = "Main Menu",
         options = ("Home", "Bulawayo Mapping","Remote Sensing","Machine Learning & AI","Sign up for beta project", "Contact me"),
         menu_icon="box",
-        icons=("house", "map","world","tools", "controller", "telephone" ),
+        icons=("house", "map","earth","tools", "controller", "telephone" ),
         )
     
 if selected == "Home":
