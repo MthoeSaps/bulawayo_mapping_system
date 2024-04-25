@@ -47,13 +47,13 @@ if selected == "Home":
                    st.write("""Property Development and Estate Management, Town planning, Land Surveying, Civil and Structural 
                             Engineering as well as implimenting the use of this technology in Environmental Management Agencies for EMA.
                             """)
-               with st.container(border=True):
+               w#ith st.container(border=True):
                    #st.subheader("Get ready to explore the most exciting and effective GIS and Remote Sensing beta project in Zimbabwe")
-                   st.write("You can support and sponsor my research by clicking on the Buy a Me Coffee button below to make a donation 🤓")
-                   st.markdown("""
-                               <a href="https://www.buymeacoffee.com/mthoko"><img src="https://img.buymeacoffee.com/button-api/?text=Support my work&emoji=🌍&slug=mthoko&button_colour=2ce22f&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
-                               """,
-                               unsafe_allow_html=True)
+                   #st.write("You can support and sponsor my research by clicking on the Buy a Me Coffee button below to make a donation 🤓")
+                   #st.markdown("""
+                               #<a href="https://www.buymeacoffee.com/mthoko"><img src="https://img.buymeacoffee.com/button-api/?text=Support my work&emoji=🌍&slug=mthoko&button_colour=2ce22f&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+                               #""",
+                               #unsafe_allow_html=True)
 
 if selected == "Bulawayo Mapping":
     with st.container(border=True):
