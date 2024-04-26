@@ -27,7 +27,7 @@ st.title("Mthoe Saps Construction Technologies Bulawayo Mapping Survey Engine")
 with st.sidebar:
     selected = option_menu(
         menu_title = "Main Menu",
-        options = ("Home", "Bulawayo Mapping","Remote Sensing","Machine Learning & AI","Sign up for beta project", "Contact me"),
+        options = ("Home", "Bulawayo Mapping","Remote Sensing","Machine Learning & AI", "Contact me"),
         menu_icon="box",
         icons=("house", "map","map","tools", "controller", "telephone" ),
         )
@@ -537,41 +537,7 @@ if selected == "Machine Learning & AI":
         )
     st.plotly_chart(fig)
 
-if selected == "Sign up for beta project":
-    st.subheader("Sign up for my Beta Project Here")
-    st.info("In the *Type your message* input text area, include **Company/ Organization name, Position  and name of the organizational firm and other relevant details**")
-    st.info("After youve submitted the beta project affiliation form, you will receiver a Paynow push payment button on your email and you will be required to make the required payment and within 24 hours of making the payment, your company will be given exclusive access to the original beta project and will also receive their first mapping software within 72 hours.")
-    colored_header(
-            label="Use the text input form below to sign up for my beta project",
-            description="Sign up for beta project here",
-            color_name="gray-70")
-    contact="""
-        <!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content=" width=device-width", initial-scale="1.0">
-    <title></title>
-</head>
-<body>
-    <div class="contact-container">
-        <form action="https://formsubmit.co/mthoesaps06@gmail.com"method="POST">
-            <input type="text" name="Username" placeholder="Username" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea name="message" id="0482" cols="30" rows="5" placeholder="Type your message"></textarea>
-            <button type="submit">Submit</button>
-        </form>
-    </div>    
-</body>
-</html>
-        """
-    with st.container(border =True):
-        st.markdown(contact, unsafe_allow_html=True)
-    def css(file_name):
-        with open(file_name) as f:
-            st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
-    css("bulawayo_mapping_software/css_styling/StyleSheet1.css")
     
 
 if selected == "Contact me":
