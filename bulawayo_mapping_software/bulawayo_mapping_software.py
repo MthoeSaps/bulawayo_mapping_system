@@ -47,7 +47,7 @@ if selected == "Home":
                    st.write("""Property Development and Estate Management, Town planning, Land Surveying, Civil and Structural 
                             Engineering as well as implimenting the use of this technology in Environmental Management Agencies for EMA.
                             """)
-               w#ith st.container(border=True):
+               #with st.container(border=True):
                    #st.subheader("Get ready to explore the most exciting and effective GIS and Remote Sensing beta project in Zimbabwe")
                    #st.write("You can support and sponsor my research by clicking on the Buy a Me Coffee button below to make a donation 🤓")
                    #st.markdown("""
