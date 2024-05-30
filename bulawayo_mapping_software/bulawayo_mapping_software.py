@@ -38,7 +38,7 @@ if selected == "Home":
            with coq1:
                with st.container(border=False):
                    img = ("bulawayo_mapping_software/images/Blue Orange Vintage and Retro Construction Badge Logo_20240401_174631_0000.png")
-                   st.image(img, width=400)
+                   st.image(img, width=380)
            with coq2:
                with st.container(border=True):
                    st.subheader("""🗺 This web application uses geospatial data in order to simulate real time data that can be used in the fields of:
