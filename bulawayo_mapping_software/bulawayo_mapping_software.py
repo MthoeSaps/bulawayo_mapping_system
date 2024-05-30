@@ -107,7 +107,7 @@ if selected == "Bulawayo Mapping":
                             size=None,
                             animation_frame=None,
                             animation_group=None,
-                            category_orders=None,
+                            category_orders="Suburb",
                             labels=None,
                             color_discrete_sequence=None,
                             color_discrete_map=None,
@@ -120,7 +120,7 @@ if selected == "Bulawayo Mapping":
                             mapbox_style=None,
                             title=None,
                             template=None,
-                            width=None,
+                            width=350,
                             color="Suburb",
                             zoom=10,
                             height=400)
