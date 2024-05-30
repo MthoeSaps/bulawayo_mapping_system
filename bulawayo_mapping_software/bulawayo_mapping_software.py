@@ -37,7 +37,7 @@ if selected == "Home":
            coq1, coq2 = st.columns(2)
            with coq1:
                with st.container(border=False):
-                   img = ("bulawayo_mapping_software/images/Blue Orange Vintage and RetroConstructionBadgeLogo_20240401_174631_0000.png")
+                   img = ("bulawayo_mapping_software/images/Blue Orange Vintage and Retro Construction Badge Logo_20240401_174631_0000.png")
                    st.image(img, width=400)
            with coq2:
                with st.container(border=True):
