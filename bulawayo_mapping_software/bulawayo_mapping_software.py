@@ -121,7 +121,7 @@ if selected == "Bulawayo Mapping":
                             title=None,
                             template=None,
                             width=350,
-                            color="Suburb",
+                            #color="Suburb",
                             zoom=10,
                             height=400)
         fig.update_layout(mapbox_style="carto-positron")
@@ -153,7 +153,7 @@ if selected == "Bulawayo Mapping":
                             title=None,
                             template=None,
                             width=None,
-                            color="Suburb",
+                            #color="Suburb",
                             zoom=10,
                             height=400)
         fig.update_layout(mapbox_style="carto-darkmatter")
