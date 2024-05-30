@@ -37,8 +37,8 @@ if selected == "Home":
            coq1, coq2 = st.columns(2)
            with coq1:
                with st.container(border=False):
-                   url = "https://mthosapstech.my.canva.site"
-                   img = (url)
+                   #url = "https://mthosapstech.my.canva.site"
+                   img = ("bulawayo_mapping_software/images/Blue Orange Vintage and Retro Construction Badge Logo_20240401_174631_0000.png")
                    st.image(img, width=350)
            with coq2:
                with st.container(border=True):
