@@ -288,6 +288,7 @@ if selected == "Bulawayo Mapping":
 
 if selected == "Remote Sensing":
     st.subheader("Use this Remote Sensing software to get geolocated data, all maps are fully interactive.")
+    st.text("Use select box below")
     menu = ["Physidal dataset Remote Sensing", "Cultural basemaps remote sensing", "World Remote sensing datasets"]
     choice = st.selectbox("Analyse Bulawayo Interactive Maps",menu)
     if choice == "Physidal dataset Remote Sensing":
