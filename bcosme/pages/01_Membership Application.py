@@ -15,7 +15,7 @@ with st.container(border=True,height=500):
     name = st.text_input("Name")
     dob = st.date_input("Date of Birth")
     gender = st.selectbox("Gender", ["Male", "Female"])
-    phone_number = st.number_input("Phone Number")
+    phone_number = st.number_input("Phone Number", step=1)
     address = st.text_input("Current Address")
     cities_in_zimbabwe = ["Bulawayo", "Harare", "Gweru", "Mutare", "Kwekwe", "Masvingo", "Victoria Falls", "Hwange", "Chinhoyi", "Chegutu", "Kadoma"]
     city = st.selectbox("City", cities_in_zimbabwe)
@@ -33,8 +33,8 @@ with st.container(border=True,height=500):
     business_duration_at_address = st.text_input("How long at this address?")
     zimbabwean_cities_and_towns = ["Bulawayo", "Harare", "Gweru", "Mutare", "Kwekwe", "Masvingo", "Victoria Falls", "Hwange", "Chinhoyi", "Chegutu", "Kadoma"]
     business_city = st.selectbox("Zimbabwean Cities and Towns", zimbabwean_cities_and_towns)
-    mobile_number = st.number_input("Mobile Number")
-    business_phone = st.number_input("Business Phone Number")
+    mobile_number = st.number_input("Mobile Number", step=1)
+    business_phone = st.number_input("Business Phone Number", step=1)
     industry = st.text_input("Industry")
     num_directors = st.slider("Number of Directors", min_value=1, max_value=20, step=1)
     num_employees = st.slider("Number of Employees", min_value=1, max_value=50, step=1)
