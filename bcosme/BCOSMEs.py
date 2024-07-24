@@ -186,13 +186,7 @@ def footer():
         st.write("""- **Talk to our team of active developers if youre having trouble with the app**""")
         badge(type="github", name = "Crazypapi6" ,url="https://github.com/Crazypapi6")
 
-     with st.container(border=True):
-        st.write(":gray[**Donate to our cause**]")
-        st.write("""- **10% of the women and children in the world go to be hungry, Its our vision to see them fed**""")
-        st.markdown("""
-<a href="https://www.buymeacoffee.com/supremecro7"><img src="https://img.buymeacoffee.com/button-api/?text=Feed a soul&emoji=🐼&slug=supremecro7&button_colour=5F7FFF&font_colour=ffffff&font_family=Arial&outline_colour=000000&coffee_colour=FFDD00" /></a>
-                     """,
-                     unsafe_allow_html=True)
+     
     
      op,op2,op3 = st.columns(3)
      with op:
