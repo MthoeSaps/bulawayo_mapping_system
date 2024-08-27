@@ -13,7 +13,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.title("Mthoe Saps Construction Technologies Metric Analysis Platform")
 with col2:
-    image = Image.open("ms tech softwares/vids and img/logo3.png")
+    image = Image.open("ms_tech_softwares/vids and img/logo3.png")
     st.image(image, use_column_width=False, width=250, caption="Welcome to our Stakeholders Company Metric Analysis Platform")
 
 # Define the KPI metrics
@@ -59,7 +59,7 @@ with tab1:
                      that highlights all the Suburbs of Bulawayo, we can simulate any mapping system
                      showing our ability to manage any system.""")
         # Load data from a CSV file or GeoJSON file
-        data = pd.read_excel('ms tech softwares/databases/bulawayo_map_coordinates.xlsx')
+        data = pd.read_excel('ms_tech_softwares/databases/bulawayo_map_coordinates.xlsx')
 
         fig = px.scatter_mapbox(data, lat="latitude", lon="longitude", hover_name="suburb",
                                color_discrete_sequence=["fuchsia"], zoom=10, height=500)
@@ -226,7 +226,7 @@ with tab3:
         st.info("Data Hut ycombinator startups datasets")
         st.write("Dataset based on US SaaS startup companies")
 
-    df = pd.read_csv('ms tech softwares/databases/data-hut-ycombinator-startups/data/yc_sample.csv')
+    df = pd.read_csv('ms_tech_softwares/databases/data-hut-ycombinator-startups/data/yc_sample.csv')
 
     with st.expander("Pie Chart"):
         # Pie Chart
@@ -279,7 +279,7 @@ with tab4:
     with st.container(border=True):
         st.subheader("Internet Usage Dataset Analysis", divider=True)
 
-    df = pd.read_csv("ms tech softwares/databases/garyhoov-world-bank-data/data/countries_in_alpha_order.csv")
+    df = pd.read_csv("ms_tech_softwares/databases/garyhoov-world-bank-data/data/countries_in_alpha_order.csv")
     #st.dataframe(df.tail())
 
     # Add filters
@@ -313,7 +313,7 @@ with tab4:
         st.subheader("New York Times Dataset of Country Articles Mention Times", divider=True)
 
     # Specify the Excel file path
-    file_path = 'ms tech softwares/databases/ansakoy-countries-in-new-york-times-2000-2016/data/ny_times_countries_2000_2016.csv'
+    file_path = 'ms_tech_softwares/databases/ansakoy-countries-in-new-york-times-2000-2016/data/ny_times_countries_2000_2016.csv'
 
     # Load the Excel data into a Pandas DataFrame
     df = pd.read_csv(file_path)
