@@ -5,7 +5,7 @@ import time
 from PIL import Image
 
 # Read the Excel file
-df = pd.read_excel('ms tech softwares/databases/enquiries.xlsx')
+df = pd.read_excel('ms_tech_softwares/databases/enquiries.xlsx')
 
 # Create the app layout
 st.title('Enquiries Dashboard')
@@ -17,7 +17,7 @@ filter_cols = ['Full Name', 'Surname', 'Company Name', 'Province', 'Services', '
 filters = {}
 
 with st.sidebar:
-    image = Image.open("ms tech softwares/vids and img/logo3.png")
+    image = Image.open("ms_tech_softwares/vids and img/logo3.png")
     st.image(image, use_column_width=False, width=250)
     st.sidebar.subheader('Filters')
     for col in filter_cols:
