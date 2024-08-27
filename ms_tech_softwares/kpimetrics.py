@@ -408,7 +408,7 @@ def faq_section():
     with st.sidebar.expander("Pricing and Plans"):
         st.write("**What are the pricing options? 💰**")
         st.write("We offer a variety of industry related services, head over to our main website and head over to the enquiries page to send an enquiry form for your business.")
-        st.link_button("MS Tech Main website", "https://www.example.com")#__replace this link with a real one
+        st.link_button("MS Tech Main website", "https://mthosapstech.streamlit.app")#__replace this link with a real one
         plan = st.radio("Plans Include:", ["Free 🆓", "Basic 🟢", "Pro 🟠", "Enterprise 🔴"])
         if plan == "Free 🆓":
             st.write("The free plan includes limited access to KPI metrics and analysis.")
