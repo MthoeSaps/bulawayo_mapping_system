@@ -3,3 +3,4 @@ pandas
 plotly
 twilio
 pillow
+openpyxl
