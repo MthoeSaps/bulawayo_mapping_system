@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import time
+import openpyxl
 from datetime import datetime, timedelta
 from PIL import Image
 
