@@ -30,7 +30,7 @@ def home_page():
                 st.write("- Customizable map layers and data overlays")
                 st.write("- Real-time updates for optimal decision-making")
             with coz2:
-                video_file = open('ms tech softwares/vids and img/logo2.mp4', 'rb')
+                video_file = open('ms_tech_softwares/vids and img/logo2.mp4', 'rb')
                 video_bytes = video_file.read()
                 st.video(video_bytes, start_time= 0 ,loop=True)
 
@@ -56,7 +56,7 @@ def home_page():
 
             with coz2:
                 with st.container(border=False):
-                    video_file = open('ms tech softwares/vids and img/logo4.mp4', 'rb')
+                    video_file = open('ms_tech_softwares/vids and img/logo4.mp4', 'rb')
                     video_bytes = video_file.read()
                     st.video(video_bytes, start_time= 0 ,loop=True)
     # Add the footer
@@ -119,13 +119,13 @@ def enquiry_page():
 
         # Load the existing Excel file or create a new one if it doesn't exist
         try:
-            df = pd.read_excel("ms tech softwares/databases/enquiries.xlsx")
+            df = pd.read_excel("ms_tech_softwares/databases/enquiries.xlsx")
         except FileNotFoundError:
             df = pd.DataFrame(columns=list(data.keys()))
 
         # Add the new row to the DataFrame and save it to the Excel file
         df.loc[len(df)] = data
-        df.to_excel("ms tech softwares/databases/enquiries.xlsx", index=False)
+        df.to_excel("ms_tech_softwares/databases/enquiries.xlsx", index=False)
 
         # Send a notification using Twilio
         account_sid = "AC29f22d5739c2440f68af3eec1062a026"
