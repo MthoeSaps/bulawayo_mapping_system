@@ -7,7 +7,7 @@ from twilio.rest import Client
 # Set the page configuration
 st.set_page_config(page_title="Mthoe Saps Construction Technologies", layout="wide")
 with st.sidebar:
-        image = Image.open("ms tech softwares/vids and img/logo3.png")
+        image = Image.open("ms_tech_softwares/vids and img/logo3.png")
         st.image(image, use_column_width=False, width=250)
 # Define the pages
 def home_page():
