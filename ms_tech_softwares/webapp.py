@@ -74,7 +74,7 @@ def enquiry_page():
     email = st.text_input("Email")
     phone = st.text_input("Phone Number")
     province = st.selectbox("Province", ["Bulawayo", "Harare", "Mashonaland Central", "Mashonaland East", "Mashonaland West", "Matabeleland North", "Matabeleland South", "Midlands", "Masvingo"])
-    address = st.text_input("House Address")
+    address = st.text_input("House/Company Address")
     services = st.multiselect("Select Preferred Services", ["Terra Vista", "Spatial Data Analysis", "GIS and Remote Sensing", "Machine Learning and AI", "POS Systems", "Inventory Management", "Online Ticket Sales", "Taxi Rank Management", "School and Hospital Management", "Sport Performance", "eCommerce", "Fitness and Gym Management", "Security and Cyber Security"])
 
     # Define the pricing for each service
