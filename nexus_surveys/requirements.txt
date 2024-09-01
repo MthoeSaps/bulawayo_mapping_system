@@ -1,6 +1,0 @@
-streamlit
-os
-datetime
-pillow
-plotly
-pandas
