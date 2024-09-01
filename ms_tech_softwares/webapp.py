@@ -127,19 +127,7 @@ def enquiry_page():
         df.loc[len(df)] = data
         df.to_excel("ms_tech_softwares/databases/enquiries.xlsx", index=False)
 
-        # Send a notification using Twilio
-        account_sid = "AC29f22d5739c2440f68af3eec1062a026"
-        auth_token = "21f5e303f5eec50e09ebab0f607a4761"
-        client = Client(account_sid, auth_token)
-
-        message = client.messages \
-                        .create(
-                            body=f"Mthoe Saps Construction Technologies, New enquiry received from {full_name} {surname}, email: ({email}) residing at({address}), {province}, ({phone}), enquiries total {total_charge}, enquired at {datetime.now().strftime("%Y-%m-%d %H:%M:%S")} for the following services: {', '.join(services)}.",
-                            from_="+19148613934",
-                            to="+263777932721"
-                        )
-
-        print(message.sid)
+        
 
         st.write(f"Thank you, {full_name}. We will get back to you shortly regarding your enquiry for the following services: {', '.join(services)}.")
 
