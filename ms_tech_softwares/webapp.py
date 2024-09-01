@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 from PIL import Image
-from twilio.rest import Client
 
 # Set the page configuration
 st.set_page_config(page_title="Mthoe Saps Construction Technologies", layout="wide")
