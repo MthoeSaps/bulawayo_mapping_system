@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 from PIL import Image
 
 # Set page title and favicon
-st.set_page_config(page_title="Mthoe Saps Construction Technologies", page_icon="📈", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Mthoe Saps Construction Technologies", layout="wide", page_icon="📈", initial_sidebar_state="expanded")
 
 col1, col2 = st.columns(2)
 with col1:
